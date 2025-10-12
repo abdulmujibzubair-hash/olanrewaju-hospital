@@ -708,11 +708,18 @@
 }
 
 .services14{
-    height: 350px;
-    width: 100%;
+    height: auto;
+    width: auto;
     max-width: 600px;
     border: 1px solid black;
-    background: white;
+    background:  #EAF6FB;
     border-radius: 20px;
-    padding: 20px;
+    padding: 30px;
 }
+
+.services14 h2{
+    color: slategrey;
+    font-weight: bold;
+    font-size: 45px;
+}
+
