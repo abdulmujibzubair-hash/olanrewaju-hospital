@@ -8,7 +8,7 @@
     border: 8px solid black;
     display: flex;
     justify-content: flex-start;
-    border: 1px solid black;
+    border: 0px solid black;
     background-color: black;
     align-items: flex-start;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -21,7 +21,7 @@
     flex-direction: row;
     background: whitesmoke;
     height: auto;
-    border: 1px solid black;
+    border: 0px solid black;
     box-shadow: 50px;
 }
 
@@ -32,7 +32,7 @@
     flex-direction: row;
     height: 50px;
     width: 100%;
-    border: 1px solid black;
+    border: 0px solid black;
     font-size: 15pt;
     color: lightslategray;
      box-shadow: 20px;
@@ -42,7 +42,7 @@
 .box1{
     height: 80px;
     width: 370px;
-    border: 1px solid black;
+    border: 0px solid black;
     font-size: 30px;
     font-weight: bold;
      box-shadow: 20px;
@@ -56,7 +56,7 @@
     flex-wrap: wrap;
     flex-direction: row;
     height: auto;
-    border: 1px solid black;
+    border: 0px solid black;
 }
 
 .box2{
@@ -66,20 +66,20 @@
     flex-wrap: wrap-reverse;
     height: 600px;
     width: auto;
-    border: 1px solid black;
+    border: 0px solid black;
 }
 
 .info{
     height: 600px;
     width: 400px;
-    border: 1px solid black;
+    border: 0px solid black;
     justify-content: flex-end;
 }
 
 .info1{
     height: 600px;
     width: 900px;
-    border: 1px solid black;
+    border: 0px solid black;
 }
 
 @media  (max-width: 900px) {
@@ -95,7 +95,7 @@
     flex-wrap: wrap;
     flex-direction: row;
     height: auto;
-    border: 1px solid black;
+    border: 0px solid black;
     margin-top: 50px;
 }
 
@@ -107,13 +107,13 @@
     height: auto;
     width: 100%;
     max-width: 1200px;
-    border: 1px solid black;
+    border: 0px solid black;
 }
 
 .info2{
     height: auto;
     width: 100%;
-    border: 1px solid black;
+    border: 0px solid black;
     font-size: 50px;
     margin-top: 20px;
     color: slategray;
@@ -128,7 +128,7 @@
     height: auto;
     width: 100%;
     max-width: 1200px;
-    border: 1px solid black;
+    border: 0px solid black;
     margin-top: 30px;
 }
 
@@ -139,10 +139,11 @@
     min-width: 180px;
     max-width: 250px;
     margin: 10px;
-    border: 1px solid black;
+    border: 0px solid black;
     text-align: center;
     color: darkblue;
     border-radius: 10px;
+    text-decoration: none;
 }
 
 .services h3{
@@ -156,7 +157,7 @@
     max-width: 250px;
     margin: 10px;
     color: darkblue;
-    border: 1px solid black;
+    border: 0px solid black;
     border-radius: 10px;
 }
 
@@ -167,7 +168,7 @@
     max-width: 250px;
     color: darkblue;
     margin: 10px;
-    border: 1px solid black;
+    border: 0px solid black;
     border-radius: 10px;
 }
 
@@ -179,7 +180,7 @@
     max-width: 250px;
     color: darkblue;
     margin: 10px;
-    border: 1px solid black;
+    border: 0px solid black;
     border-radius: 10px;
 }
 
@@ -190,7 +191,7 @@
     max-width: 250px;
     color: darkblue;
     margin-top: 50px;
-    border: 1px solid black;
+    border: 0px solid black;
     border-radius: 10px;
 }
 
@@ -201,7 +202,7 @@
     max-width: 250px;
     color: darkblue;
     margin-top: 50px;
-    border: 1px solid black;
+    border: 0px solid black;
     border-radius: 10px;
 }
 
@@ -212,7 +213,7 @@
     max-width: 250px;
     margin-top: 50px;
     color: darkblue;
-    border: 1px solid black;
+    border: 0px solid black;
     border-radius: 10px;
 }
 
@@ -223,14 +224,14 @@
     max-width: 250px;
     color: darkblue;
     margin-top: 50px;
-    border: 1px solid black;
+    border: 0px solid black;
     border-radius: 10px;
 }
 
 .info4{
     height: auto;
     width: auto;
-    border: 1px solid black;
+    border: 0px solid black;
     margin-top: 40px;
     text-align: center;
 }
@@ -259,6 +260,7 @@
     height: 150px;
     box-shadow: 50px black;
     cursor: pointer;
+    border: 10px solid darkblue;
 }
 
 .services1:hover{
@@ -315,7 +317,7 @@
     flex-wrap: wrap;
     flex-direction: row;
     height: 900px;
-    border: 1px solid black;
+    border: 0px solid black;
     margin-top: 50px;
     background: lightblue;
 }
@@ -329,7 +331,7 @@
     width: 100%;
     max-width: 1360px;
     box-sizing: border-box;
-    border: 1px solid black;
+    border: 0px solid black;
 }
 
 .info5{
@@ -338,7 +340,7 @@
     min-width: 220px;
     max-width: 600px;
     box-sizing: border-box;
-    border: 1px solid black;
+    border: 0px solid black;
     margin-top: 100px;
     margin-left: 50px;
 }
@@ -350,11 +352,6 @@
     cursor: pointer;
 }
 
-.services8:hover{
-   
-    cursor: pointer;
-    flex-basis: 300px;
-}
 
 
 .info6{
@@ -367,7 +364,7 @@
     min-width: 220px;
     max-width: 690px;
     box-sizing: border-box;
-    border: 1px solid black;
+    border: 0px solid black;
     margin-top: 100px;
     margin-right: 50px;
 }
@@ -376,7 +373,7 @@
     height: 350px;
     width: 100%;
     max-width: 600px;
-    border: 1px solid black;
+    border: 0px solid black;
     background: white;
     border-radius: 20px;
     padding: 20px;
@@ -391,6 +388,11 @@
     color: darkblue;
 }
 
+.services8:hover{
+   
+    cursor: pointer;
+    flex-basis: 300px;
+}
 
 .services9{
     display: flex;
@@ -400,7 +402,7 @@
     height: 250px;
     width: 100%;
     max-width: 650px;
-    border: 1px solid black;
+    border: 0px solid black;
     margin-top: 10px;
     box-sizing: border-box;
 }
@@ -410,7 +412,7 @@
     width: 100%;
     max-width: 300px;
     box-sizing: border-box;
-    border: 1px solid black;
+    border: 0px solid black;
     background: white;
     font-size: 20px;
     padding: 20px;
@@ -430,7 +432,7 @@
     width: 100%;
     max-width: 300px;
     box-sizing: border-box;
-    border: 1px solid black;
+    border: 0px solid black;
     background: white;
     font-size: 20px;
     text-align: center;
@@ -641,7 +643,7 @@
     border: 1px solid black;
     padding: 30px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
 }
@@ -650,4 +652,67 @@
     height: 300px;
     width: 400px;
     border: 1px solid black;
+}
+
+.card-container8{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: auto;
+    border: 1px solid black;
+    margin-top: 50px;
+    background: lightblue;
+}
+
+.box14{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: auto;
+    width: 100%;
+    max-width: 1360px;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+.card-container9{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: auto;
+    border: 1px solid black;
+    margin-top: 50px;
+}
+
+.box15{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: auto;
+    width: 100%;
+    max-width: 1360px;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+.services13{
+    height: auto;
+    width: 100%;
+    max-width: 600px;
+    border: 1px solid black;
+    background: white;
+    border-radius: 20px;
+    padding: 50px;
+}
+
+.services14{
+    height: 350px;
+    width: 100%;
+    max-width: 600px;
+    border: 1px solid black;
+    background: white;
+    border-radius: 20px;
+    padding: 20px;
 }
