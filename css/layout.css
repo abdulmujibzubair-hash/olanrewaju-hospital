@@ -70,7 +70,7 @@
 }
 
 .info{
-    height: 600px;
+    height: 100px;
     width: 400px;
     border: 0px solid black;
     justify-content: flex-end;
@@ -130,6 +130,7 @@
     max-width: 1200px;
     border: 0px solid black;
     margin-top: 30px;
+    text-decoration: none;
 }
 
 
@@ -236,6 +237,80 @@
     text-align: center;
 }
 
+
+.services:hover{
+    width: 250px;
+    height: 250px;
+    box-shadow: 3px 3px 3px 2px black;
+    cursor: pointer;
+    border: 30px solid rgb(240, 248, 255);
+    border-radius: 20px;
+}
+
+.services1:hover{
+    width: 250px;
+    height: 250px;
+    box-shadow: 3px 3px 3px 2px black;
+    cursor: pointer;
+    border: 30px solid rgb(240, 248, 255);
+    border-radius: 20px;
+}
+
+.services2:hover{
+    width: 250px;
+    height: 250px;
+    box-shadow: 3px 3px 3px 2px black;
+    cursor: pointer;
+    border: 30px solid rgb(240, 248, 255);
+    border-radius: 20px;
+}
+
+.services3:hover{
+    width: 270px;
+    height: 270px;
+    box-shadow: 3px 3px 3px 2px black;
+    cursor: pointer;
+    border: 30px solid rgb(240, 248, 255);
+    border-radius: 20px;
+}
+
+.services4:hover{
+    width: 280px;
+    height: 280px;
+    box-shadow: 3px 3px 3px 2px black;
+    cursor: pointer;
+    border: 30px solid rgb(240, 248, 255);
+    border-radius: 20px;
+}
+
+.services5:hover{
+    width: 250px;
+    height: 250px;
+    box-shadow: 3px 3px 3px 2px black;
+    cursor: pointer;
+    border: 30px solid rgb(240, 248, 255);
+    border-radius: 20px;
+}
+
+.services6:hover{
+    width: 250px;
+    height: 250px;
+    box-shadow: 3px 3px 3px 2px black;
+    cursor: pointer;
+    border: 30px solid rgb(240, 248, 255);
+    border-radius: 20px;
+}
+
+.services7:hover{
+    width: 270px;
+    height: 270px;
+    box-shadow: 3px 3px 3px 2px black;
+    cursor: pointer;
+    border: 30px solid rgb(240, 248, 255);
+    border-radius: 20px;
+}
+
+
 @media (max-width: 900px) {
     .services,
     .services1,
@@ -245,7 +320,7 @@
     .services5,
     .services6,
     .services7 {
-        max-width: 400px;
+        max-width: 300px;
         width: 95%;
         margin: 10px auto;
         height: auto;
@@ -253,63 +328,6 @@
     .info2{
         font-size: 24px;
     }
-}
-
-.services:hover{
-    width: 150px;
-    height: 150px;
-    box-shadow: 50px black;
-    cursor: pointer;
-    border: 10px solid darkblue;
-}
-
-.services1:hover{
-    width: 150px;
-    height: 150px;
-    box-shadow: 50px black;
-     cursor: pointer;
-}
-
-.services2:hover{
-    width: 150px;
-    height: 150px;
-    box-shadow: 50px black;
-     cursor: pointer;
-}
-
-.services3:hover{
-    width: 150px;
-    height: 150px;
-    box-shadow: 50px black;
-     cursor: pointer;
-}
-
-.services4:hover{
-    width: 150px;
-    height: 150px;
-    box-shadow: 50px black;
-     cursor: pointer;
-}
-
-.services5:hover{
-    width: 150px;
-    height: 150px;
-    box-shadow: 50px black;
-     cursor: pointer;
-}
-
-.services6:hover{
-    width: 150px;
-    height: 150px;
-    box-shadow: 50px black;
-     cursor: pointer;
-}
-
-.services7:hover{
-    width: 150px;
-    height: 150px;
-    box-shadow: 50px black;
-     cursor: pointer;
 }
 
 .card-container3{
@@ -482,7 +500,7 @@
     flex-wrap: wrap;
     flex-direction: row;
     height: auto;
-    border: 1px solid black;
+    border: 0px solid black;
     margin-top: 50px;
 }
 
@@ -493,16 +511,16 @@
     flex-wrap: wrap;
     height: auto;
     width: 100%;
-    max-width: 1360px;
+    max-width: 1250px;
     box-sizing: border-box;
-    border: 1px solid black;
+    border: 0px solid black;
 }
 
 .info7{
     text-align: center;
     height: auto;
     width: auto;
-    border: 1px solid black;
+    border: 0px solid black;
     margin-top: 50px;
 }
 
@@ -520,14 +538,14 @@
     flex-wrap: wrap;
     height: auto;
     width: 100%;
-    border: 1px solid black;
+    border: 0px solid black;
     margin-top: 50px;
 }
 
 .services10{
     height: 600px;
     width: 400px;
-    border: 1px solid black;
+    border: 0px solid black;
     text-align: center;
 }
 
@@ -542,10 +560,19 @@
     }
 } 
 
+.services10:hover{
+    width: 400px;
+    height: 650px;
+    box-shadow: 3px 3px 3px 2px black;
+    cursor: pointer;
+    border: 30px solid rgb(240, 248, 255);
+    border-radius: 20px;   
+}
+
 .services11{
     height: 650px;
     width: 400px;
-    border: 1px solid black;
+    border: 0px solid black;
     text-align: center;
 }
 
@@ -560,10 +587,20 @@
     }
 } 
 
+
+.services11:hover{
+    width: 400px;
+    height: 700px;
+    box-shadow: 3px 3px 3px 2px black;
+    cursor: pointer;
+    border: 30px solid rgb(240, 248, 255);
+    border-radius: 20px;   
+}
+
 .services12{
     height: 500px;
     width: 400px;
-    border: 1px solid black;
+    border: 0px solid black;
     text-align: center;
 }
 
@@ -577,6 +614,15 @@
     margin-bottom: 50px;
     }
 } 
+
+.services12:hover{
+    width: 400px;
+    height: 650px;
+    box-shadow: 3px 3px 3px 2px black;
+    cursor: pointer;
+    border: 30px solid rgb(240, 248, 255);
+    border-radius: 20px;   
+}
 
 @media (max-width: 900px) {
     .services10,
@@ -593,7 +639,7 @@
     flex-wrap: wrap;
     flex-direction: row;
     height: auto;
-    border: 1px solid black;
+    border: 0px solid black;
     margin-top: 100px;
     background: rgb(236, 245, 252);
 }
@@ -601,13 +647,13 @@
 .box6{
     height: 500px;
     width: 400px;
-    border: 1px solid black;
+    border: 0px solid black;
 }
 
 .box7{
     height: 500px;
     width: 500px;
-    border: 1px solid black;
+    border: 0px solid black;
     text-align: center;
     padding: 100px;
 }
@@ -615,7 +661,7 @@
 .box8{
     height: 500px;
     width: 400px;
-    border: 1px solid black;
+    border: 0px solid black;
 }
 
 .box7 h1{
@@ -627,20 +673,21 @@
     flex-wrap: wrap;
     flex-direction: row;
     height: auto;
-    border: 1px solid black;
+    border: 0px solid black;
+    color: darkblue;
 }
 
 .box9{
     height: 300px;
     width: 400px;
-    border: 1px solid black;
+    border: 0px solid black;
     text-align: center;
 }
 
 .box10{
     height: 250px;
     width: 500px;
-    border: 1px solid black;
+    border: 0px solid black;
     padding: 30px;
     display: flex;
     flex-direction: column;
@@ -651,7 +698,57 @@
 .box11{
     height: 300px;
     width: 400px;
-    border: 1px solid black;
+    border: 0px solid black;
+    margin-top: 10px;
+    padding: 30px;
+}
+
+.card-container7{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: auto;
+    border: 0px solid black;
+    background: lightslategray;
+}
+
+
+.box12{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: auto;
+    width: 100%;
+    max-width: 1300px;
+    box-sizing: border-box;
+    border: 0px solid black;
+}
+
+.services40{
+    height: 25px;
+    width: 100%;
+    max-width: 550px;
+    border: 0px solid black;
+    word-spacing: 1px;
+    text-align: center;
+}
+
+
+.services40 p{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: slategrey;
+}
+
+.services41{
+    height: auto;
+    width: 100%;
+    max-width: 200px;
+    border: 0px solid black;
+    word-spacing: 1px;
+    margin-top: 50px;
 }
 
 .card-container8{
@@ -1465,5 +1562,139 @@
   shape-outside: circle(45%);
 }
 
-    
 
+.card-container19{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: auto;
+    border: 1px solid black;
+    background: rgb(236, 245, 252);
+}
+
+.box25{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: auto;
+    width: 100%;
+    max-width: 1200px;
+    border: 1px solid black;
+    margin-top: 150px;
+}
+
+.services33{
+    height: auto;
+    width: 100%;
+    max-width: 600px;
+    border: 1px solid black;
+    padding: 40px;
+    background: white;
+    border-radius: 20px;
+}
+
+.services33 h1{
+    font-size: 40px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    color: grey;
+}
+
+.services33 p{
+    font-size: 17.5px;
+    line-height: 1.6;
+    color: darkgrey;
+}
+
+.services34{
+    height: auto;
+    width: 100%;
+    max-width: 500px;
+    border: 1px solid black;
+}
+
+.services34 img {
+  float: left;
+  clip-path: circle(35%);
+  shape-outside: circle(45%);
+}
+
+@media (max-width: 900px) {
+    .services31,
+    .services32,
+    .services33,
+    .services34 {
+        width: 95%;
+        max-width: 600px;
+        height: auto;
+        margin-top: 20px;
+        h1{
+            font-size: 35px;
+        }
+    }
+}
+
+.card-container20{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: auto;
+    border: 1px solid black;
+    background: lightslategray;
+}
+
+.box26{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: auto;
+    width: 100%;
+    max-width: 1200px;
+    border: 1px solid black;
+    margin-top: 100px;
+}
+
+.services35{
+    height: auto;
+    width: 100%;
+    max-width: 1200px;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+
+.services35 h1{
+    font-size: 60px;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+}
+
+.services36{
+    height: 450px;
+    width: 100%;
+    max-width: 1200px;
+    border: 1px solid black;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.services36 p{
+    font-size: 18.5px;
+    line-height: 1.6;
+    color: white;
+}
+
+@media (max-width: 900px) {
+    .services35,
+    .services36 {
+        width: 95%;
+        max-width: 600px;
+        height: auto;
+        margin-top: 20px;
+        h1{
+            font-size: 35px;
+        }
+    }
+}
