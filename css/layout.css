@@ -45,19 +45,10 @@
     border: 0px solid black;
     font-size: 30px;
     font-weight: bold;
-    box-shadow: 20px;
+     box-shadow: 20px;
 }
 .box:hover {
     background-color: darkblue;
-}
-
-@media (max-width:900px) {
-    .box1{
-        width: 80%;
-    }
-    .box{
-        width: 300px;
-    }
 }
 
 .card-container1{
