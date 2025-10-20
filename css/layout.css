@@ -51,6 +51,14 @@
     background-color: darkblue;
 }
 
+@media (max-width:900px) {
+    .box1{
+        width: 400px;
+        margin-left: 0px;
+    }
+    
+}
+
 .card-container1{
     display: flex;
     flex-wrap: wrap;
